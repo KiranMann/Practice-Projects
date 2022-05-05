@@ -1,0 +1,10 @@
+student_heights = input("Input a list of student heights ").split()
+for n in range(0, len(student_heights)):
+  student_heights[n] = int(student_heights[n])
+
+print(student_heights)
+print(len(student_heights))
+
+average_height = (sum(student_heights)/(len(student_heights)))
+
+print(f"The everage height of the given set of students is {round(average_height)}.")
